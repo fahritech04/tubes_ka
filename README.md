@@ -35,7 +35,18 @@ D:\tubes_ka\ds12_manufaktur_maintenance.csv
 
 ## Instalasi Awal
 
-Gunakan Python 3.10 atau versi yang lebih baru. Setelah repository selesai di-clone, masuk ke folder project:
+Pastikan Python sudah terinstall di laptop. Gunakan Python 3.10 atau versi yang lebih baru.
+
+Cek Python dan pip:
+
+```powershell
+python --version
+pip --version
+```
+
+Jika perintah tersebut belum dikenali, install Python terlebih dahulu dari situs resmi Python. Saat instalasi, centang pilihan `Add python.exe to PATH`.
+
+Setelah repository selesai di-clone, masuk ke folder project:
 
 ```powershell
 cd D:\tubes_ka
