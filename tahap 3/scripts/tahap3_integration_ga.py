@@ -7,9 +7,9 @@ import matplotlib.pyplot as plt
 import joblib
 
 ROOT = Path(r'D:\tubes_ka')
-STAGE1 = ROOT / 'tahap 1'
-STAGE3 = ROOT / 'tahap 3'
-OUT = STAGE3 / 'outputs'
+TAHAP_1 = ROOT / 'tahap 1'
+TAHAP_3 = ROOT / 'tahap 3'
+OUT = TAHAP_3 / 'outputs'
 DATAOUT = OUT / 'data'
 PLOTS = OUT / 'plots'
 for folder in [DATAOUT, PLOTS]:
@@ -19,9 +19,9 @@ RANDOM_SEED = 42
 random.seed(RANDOM_SEED)
 np.random.seed(RANDOM_SEED)
 
-MODEL_PATH = STAGE1 / 'models' / 'best_rul_model.joblib'
+MODEL_PATH = TAHAP_1 / 'models' / 'best_rul_model.joblib'
 SOURCE_CSV = ROOT / 'ds12_manufaktur_maintenance.csv'
-SIM50_PATH = STAGE1 / 'outputs' / 'data' / 'input_50_mesin_anomali_prediksi.csv'
+SIM50_PATH = TAHAP_1 / 'outputs' / 'data' / 'input_50_mesin_anomali_prediksi.csv'
 
 FEATURES = [
     'jam_operasi_aktif', 'jenis_mesin', 'tekanan_oli_bar', 'suhu_c',

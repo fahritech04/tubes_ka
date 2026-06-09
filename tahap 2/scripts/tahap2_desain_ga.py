@@ -4,13 +4,13 @@ import numpy as np
 import json
 
 ROOT = Path(r'D:\tubes_ka')
-STAGE1 = ROOT / 'tahap 1'
-STAGE2 = ROOT / 'tahap 2'
-OUT = STAGE2 / 'outputs'
+TAHAP_1 = ROOT / 'tahap 1'
+TAHAP_2 = ROOT / 'tahap 2'
+OUT = TAHAP_2 / 'outputs'
 DATAOUT = OUT / 'data'
 DATAOUT.mkdir(parents=True, exist_ok=True)
 
-src = STAGE1 / 'outputs' / 'data' / 'input_50_mesin_anomali_prediksi.csv'
+src = TAHAP_1 / 'outputs' / 'data' / 'input_50_mesin_anomali_prediksi.csv'
 df = pd.read_csv(src)
 
 # GA tidak boleh memakai RUL negatif; prediksi negatif berarti mesin sudah sangat kritis.
