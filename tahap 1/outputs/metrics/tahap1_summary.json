@@ -1,0 +1,67 @@
+{
+  "shape": [
+    16000,
+    10
+  ],
+  "missing": {
+    "sisa_umur_jam": 0,
+    "jam_operasi_aktif": 0,
+    "jenis_mesin": 0,
+    "tekanan_oli_bar": 0,
+    "id_log_sensor": 0,
+    "suhu_c": 38,
+    "vibrasi_mm_s": 0,
+    "durasi_perbaikan_jam": 0,
+    "shift_operator": 0,
+    "kebisingan_lingkungan_db": 0
+  },
+  "numeric_corr_pearson": {
+    "jam_operasi_aktif": -0.4726743150115542,
+    "vibrasi_mm_s": -0.39271276821037565,
+    "suhu_c": -0.22277106565067623,
+    "tekanan_oli_bar": 0.15468172795251975,
+    "kebisingan_lingkungan_db": -0.004392703606986137,
+    "durasi_perbaikan_jam": -0.0033334953710906735
+  },
+  "jenis_mesin_summary": {
+    "CNC_Milling": {
+      "count": 6306,
+      "mean": 227.572,
+      "std": 56.427,
+      "min": 1.0,
+      "max": 311.6
+    },
+    "Conveyor_Belt": {
+      "count": 3205,
+      "mean": 227.742,
+      "std": 55.993,
+      "min": 1.0,
+      "max": 309.3
+    },
+    "Robot_Arm": {
+      "count": 6489,
+      "mean": 227.538,
+      "std": 56.649,
+      "min": 1.0,
+      "max": 311.0
+    }
+  },
+  "shift_summary": {
+    "Shift_1": {
+      "count": 5313,
+      "mean": 228.251,
+      "std": 55.869
+    },
+    "Shift_2": {
+      "count": 5425,
+      "mean": 227.842,
+      "std": 56.292
+    },
+    "Shift_3": {
+      "count": 5262,
+      "mean": 226.67,
+      "std": 57.122
+    }
+  },
+  "best_model": "Gradient Boosting"
+}

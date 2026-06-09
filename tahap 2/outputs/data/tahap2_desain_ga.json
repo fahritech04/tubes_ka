@@ -1,0 +1,27 @@
+{
+  "arsitektur": "Opsi A - Pra-Komputasi",
+  "output_ml_untuk_ga": "rul_ga_jam = max(0, prediksi_sisa_umur_jam)",
+  "tipe_kromosom": "Permutasi 50 machine_code",
+  "kromosom_awal_10_gen_pertama": [
+    "M11",
+    "M30",
+    "M16",
+    "M17",
+    "M46",
+    "M07",
+    "M22",
+    "M21",
+    "M26",
+    "M36"
+  ],
+  "jadwal_pembanding_terbaik": "SPT_durasi_terpendek",
+  "rumus_fitness": "fitness = 1 / (1 + 10000*breakdown_count + 100*total_lateness_jam + 0.01*total_waiting_jam)",
+  "batasan_mutlak": [
+    "Setiap machine_code muncul tepat satu kali.",
+    "Tidak boleh ada duplikasi atau mesin hilang.",
+    "Satu tim teknisi mengerjakan satu mesin pada satu waktu.",
+    "Perbaikan bersifat non-preemptive: satu perbaikan diselesaikan sebelum pindah ke mesin berikutnya."
+  ],
+  "crossover": "Order Crossover (OX) atau Partially Matched Crossover (PMX)",
+  "mutasi": "Swap mutation dan/atau inversion mutation"
+}

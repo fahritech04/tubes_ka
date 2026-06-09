@@ -1,0 +1,4 @@
+jadwal,breakdown_count,total_lateness_jam,total_waiting_jam,makespan_jam,cost,fitness
+SPT_durasi_terpendek,46,5956.59,6417.0,342.0,1055723.17,9.472171125910663e-07
+EDD_RUL_terpendek,49,7348.87,7834.0,342.0,1224965.34,8.163489618824954e-07
+FCFS_input_awal,47,7954.96,8396.0,342.0,1265579.96,7.901509517020547e-07

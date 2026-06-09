@@ -1,0 +1,11 @@
+﻿scikit-learn
+pandas
+numpy
+matplotlib
+seaborn
+joblib
+nbformat
+notebook
+python-docx
+pypdf
+pymupdf

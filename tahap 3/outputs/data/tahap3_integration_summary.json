@@ -1,0 +1,41 @@
+{
+  "random_seed": 42,
+  "population_size": 100,
+  "generations": 60,
+  "crossover": "Order Crossover (OX)",
+  "mutation": "swap + inversion mutation",
+  "selection": "Tournament selection size 3 + elitism 2",
+  "interface_input_shape": [
+    50,
+    7
+  ],
+  "interface_output_shape": [
+    50
+  ],
+  "ga_chromosome_length": 50,
+  "best_score": {
+    "fitness": 9.755670500550867e-07,
+    "cost": 1025043.87,
+    "breakdown_count": 42,
+    "total_lateness_jam": 6049.79,
+    "total_waiting_jam": 6487.0,
+    "makespan_jam": 342.0
+  },
+  "best_chromosome_machine_code_first_15": [
+    "M30",
+    "M46",
+    "M23",
+    "M01",
+    "M14",
+    "M37",
+    "M31",
+    "M47",
+    "M03",
+    "M11",
+    "M17",
+    "M16",
+    "M22",
+    "M39",
+    "M07"
+  ]
+}
